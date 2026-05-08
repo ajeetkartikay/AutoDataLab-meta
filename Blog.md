@@ -2,11 +2,12 @@
 
 **Author:** Ajeet Kumar ([@ajeetkartikay](https://github.com/ajeetkartikay))
 **Team:** Peaky Blinders — built with [Sai Kamal Nannuri](https://github.com/Uchihakamal1816)
+
+**Portfolio repo:** https://github.com/ajeetkartikay/AutoDataLab-meta
 **Original team repo:** https://github.com/Uchihakamal1816/AutoDataLab-
-**My portfolio fork:** https://github.com/ajeetkartikay/AutoDataLab-meta
 **Live demo:** https://uchihamadara1816-autodatalab2-0.hf.space/ui/
 
-**Code:** https://github.com/Uchihakamal1816/AutoDataLab-
+> *This blog covers the full team's work. My specific contributions are listed in the [README](./README.md#my-contributions).*
 
 ## TL;DR
 

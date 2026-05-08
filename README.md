@@ -10,7 +10,22 @@ pinned: false
 
 # AutoDataLab++
 
-**Team: Peaky Blinders** — Sai Kamal Nannuri ([Uchihakamal1816](https://github.com/Uchihakamal1816)) & Ajeet Kumar ([ajeetkartikay](https://github.com/ajeetkartikay))
+**Author:** Ajeet Kumar ([@ajeetkartikay](https://github.com/ajeetkartikay))
+**Team:** Peaky Blinders — built with [Sai Kamal Nannuri](https://github.com/Uchihakamal1816)
+**My portfolio repo (this one):** https://github.com/ajeetkartikay/AutoDataLab-meta
+**Original team repo:** https://github.com/Uchihakamal1816/AutoDataLab-
+
+## My Contributions
+
+This was a team hackathon project. My specific contributions:
+
+- **HR / Email subenvironment** — `subenvs/email/` and `ceo_brief_env/experts/hr.py`. Built the blended grader (45% structure + 45% tone + 10% audience bonus) and wired it into all 6 tasks.
+- **Deployment & ops** — HF Space deployment to `kartik1230/round2-1`, Dockerfile fixes (uvicorn CMD, removing torch from prod deps), Git LFS migration to handle binary files.
+- **Validation infrastructure** — `validate_submission.py --base-url` flag for live-mode validation, GitHub Actions CI workflow, session cap with `AUTODATALAB_MAX_SESSIONS` env var, `torch.load(weights_only=True)` security hardening.
+- **Reproducible build** — Generated real `uv.lock`, removed training group from `pyproject.toml` to keep prod image small.
+- **Documentation** — This README, [`Blog.md`](./Blog.md), and the judge runbook in [`SPACE_README.md`](./SPACE_README.md).
+
+Sai Kamal Nannuri owned the environment architecture, the GRPO training pipeline, the CoS policy training, and the office UI.
 
 A multi-agent OpenEnv environment where a **Chief of Staff (CoS)** policy routes work across four AI specialists — **Data Analyst**, **Finance**, **Strategy**, and **HR** — to complete realistic CEO briefing tasks. We trained **Qwen2.5-1.5B-Instruct** with **GRPO** to be that CoS, and added **RAG** over a corpus of company SOPs, policies, and exemplar memos.
 
